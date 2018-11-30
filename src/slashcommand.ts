@@ -5,10 +5,10 @@ import { ISlashCommand, SlashCommandContext } from '@rocket.chat/apps-engine/def
 import { TrelloApp } from '../TrelloApp';
 
 export class ListBoards implements ISlashCommand {
-    public command: string = 'trello';
-    public i18nParamsExample: 'trello_command_params';
-    public i18nDescription: 'trello_command_description';
-    public providesPreview: boolean = false;
+    public command = 'trello';
+    public i18nParamsExample = 'trello_command_params';
+    public i18nDescription = 'trello_command_description';
+    public providesPreview = false;
 
     constructor(private readonly app: TrelloApp) { }
 

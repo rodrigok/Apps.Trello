@@ -1,0 +1,6 @@
+{
+    "trello_command_params": "",
+    "trello_command_description": "List all projects",
+    "key": "Trello API Key",
+    "token": "Trello API Token"
+}
